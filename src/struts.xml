@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<struts>
+    <package name="Struts2Exam" namespace="/" extends="struts-default">
+        <action name="index" class="jp.blog.goodmove.struts2.test.IndexAction" method="execute">
+            <result name="success">/WEB-INF/index.jsp</result>
+        </action>
+        <!-- Add your actions here -->
+    </package>
+</struts>
